@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body{
+    background-color: #0b848b;
+}
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.footer p{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.Home-Logged{
+    background-color: #262525;
+    padding: 20px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   /* bring your own prefixes */
+   transform: translate(-50%, -50%);
+   width: 500px;
+   height: 500px;
+   border-radius: 10%;
+   text-align: center;
+   
+    
+}
+.Home-NotLogged{
+    background-color: #262525;
+    padding: 20px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   /* bring your own prefixes */
+   transform: translate(-50%, -50%);
+   width: 500px;
+   height: 500px;
+   border-radius: 10%;
+   text-align: center;
+   justify-content: center;
+   
+    
+}
+.Home-NotLogged a { 
+    background-color: #067076; /* Green */
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 15px;
+    justify-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+   
+    
+}
+.Home-NotLogged h1 {
+    color: whitesmoke;
+     background-color: #262525;
+     margin: 10px;
+     margin-top: 50px;
+     font-size: 30px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+     
+ }
+.Home-Logged h1 {
+   color: whitesmoke;
+    background-color: #262525;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+.Home-NotLogged span {
+    color: whitesmoke;   
+ }
+ .Home-NotLogged i {
+    padding-top: 50px;
+ }
+
+.Home-Logged h2{
+    background-color: #262525;
+   
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+    color: whitesmoke;
+    align-items: center;
+    padding: 0;
+}
+
+ .Home-Logged h3 {
+    color: whitesmoke;
+     background-color: #262525;
+     margin-bottom: 20px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 300;
+
+ 
+     
+ }
+ .Home-Logged img {
+    border: #067076 2px solid ;
+     
+ }
+
+.button {
+    background-color: #067076; /* Green */
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  
+  }
+  .Login {
+    background-color: #262525;
+    padding: 20px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   /* bring your own prefixes */
+   transform: translate(-50%, -50%);
+   width: 500px;
+   height: 500px;
+   border-radius: 10%;
+   text-align: center;
+   justify-content: center;
+   
+  }
+  .Login form {
+    background-color: #262525;
+    padding: 20px;
+    
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   /* bring your own prefixes */
+   transform: translate(-50%, -50%);
+   width: 500px;
+   height: 500px;
+   border-radius: 10%;
+   text-align: center;
+   justify-content: center;
+   
+  }
+  .Login form h2 {
+      margin-top: 20px;
+    color: whitesmoke;
+    background-color: #262525;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+   
+  }
+  .Login form span {
+    color: whitesmoke;
+    
+}
+.Login form i {
+    padding-top: 50px;
+    
+}
+
+  .Login form input {
+    width: 50%;
+  line-height: 1.5;
+  padding: 15px 10px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  color: whitesmoke;
+  background: var(--bgFormEls);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+    transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+   
+  }
